@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>160</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>711</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>761</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>InsertionSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MergeSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RadixSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CountingSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SelectionSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BubbleSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>QuickSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BucketSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SelectionSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CountingSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HeapSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TreeSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CycleSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ShellSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CombSort</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SleepSort</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>150</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Algorithms :</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>651</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fashion Clothes Info</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>790</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuhi">
+    <property name="title">
+     <string>.</string>
+    </property>
+   </widget>
+   <addaction name="menuhi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
